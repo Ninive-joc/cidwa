@@ -1,0 +1,22 @@
+@import "node_modules/bootstrap/scss/functions";
+
+$primary: #7E121D;
+$secundary: #76584C;
+$success: #1D2E19;
+$danger: #A60b08;
+$info: #E6DCB1;
+$light:#CFCABF;
+
+@import "node_modules/bootstrap/scss/variables";
+
+$blue: #002b7a;
+$gold: #d59f0f;
+
+$unam-theme: (
+    "blue":$blue,
+    "gold":$gold
+);
+
+$theme-colors: map-merge($theme-colors , $unam-theme);
+
+@import "node_modules/bootstrap/scss/bootstrap";
